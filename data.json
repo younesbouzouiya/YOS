@@ -4,56 +4,56 @@
     {
       "id": "cat_games",
       "name": "Games",
-      "icon": "🎮",
+      "icon": "ð®",
       "from": "#6c63ff",
       "to": "#00d4ff"
     },
     {
       "id": "cat_apps",
       "name": "Apps",
-      "icon": "📱",
+      "icon": "ð±",
       "from": "#ff6b9d",
       "to": "#ff9e0a"
     },
     {
       "id": "cat_tools",
       "name": "Tools",
-      "icon": "🛠️",
+      "icon": "ð ï¸",
       "from": "#00d4ff",
       "to": "#6c63ff"
     },
     {
       "id": "cat_web",
       "name": "Web / HTML",
-      "icon": "🌐",
+      "icon": "ð",
       "from": "#ffd700",
       "to": "#ff9e0a"
     },
     {
       "id": "cat_assets",
       "name": "Assets",
-      "icon": "🎨",
+      "icon": "ð¨",
       "from": "#00d464",
       "to": "#00d4ff"
     },
     {
       "id": "cat_ai",
       "name": "AI Tools",
-      "icon": "🤖",
+      "icon": "ð¤",
       "from": "#ff6b9d",
       "to": "#6c63ff"
     },
     {
       "id": "cat_software",
       "name": "Software",
-      "icon": "📦",
+      "icon": "ð¦",
       "from": "#6c63ff",
       "to": "#ff6b9d"
     },
     {
       "id": "cat_docs",
       "name": "Documents",
-      "icon": "📚",
+      "icon": "ð",
       "from": "#00d4ff",
       "to": "#00d464"
     }
@@ -61,14 +61,19 @@
   "announcements": [
     {
       "id": "ann_1",
-      "icon": "📢",
-      "highlight": "مرحباً!",
-      "text": "YOS Store جاهز — أضف منتجاتك من لوحة المطور.",
+      "icon": "ð¢",
+      "highlight": "ÙØ±Ø­Ø¨Ø§Ù!",
+      "text": "YOS Store Ø¬Ø§ÙØ² â Ø£Ø¶Ù ÙÙØªØ¬Ø§ØªÙ ÙÙ ÙÙØ­Ø© Ø§ÙÙØ·ÙØ±.",
       "active": true,
       "date": "31/05/2026"
     }
   ],
   "activity": [
+    {
+      "msg": "Developer logged in",
+      "time": "31/05/2026 18:42:12",
+      "color": "#ff6b9d"
+    },
     {
       "msg": "Developer logged in",
       "time": "31/05/2026 18:41:36",
