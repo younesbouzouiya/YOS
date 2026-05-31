@@ -2307,7 +2307,7 @@ body, p, span, div,
 
 /* ── GITHUB CONFIG ── */
 const GH_USER  = 'younesbouzouiya';
-const GH_REPO  = 'YOS';
+const GH_REPO  = 'YOS-Store';
 const GH_FILE  = 'data.json';
 const GH_BRANCH = 'main';
 const GH_RAW   = `https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/${GH_BRANCH}/${GH_FILE}`;
@@ -2395,7 +2395,9 @@ async function saveStoreData(){
     return false;
   }
   try{
-    const content = btoa(unescape(encodeURIComponent(JSON.stringify(_storeData, null, 2))));
+    const json = JSON.stringify(_storeData, null, 2);
+    const bytes = new TextEncoder().encode(json);
+    const content = btoa(String.fromCharCode(...bytes));
     const body = {
       message: `YOS Store update — ${new Date().toLocaleString()}`,
       content,
